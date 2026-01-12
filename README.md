@@ -1,49 +1,67 @@
-# Celery Automation Boilerplate (Demo)
+# Start Here  
+### The entry point to the Segura Ecosystem
 
-This repository contains a clean, minimal boilerplate for structuring Celery workers, Beat schedulers, and task routing in a scalable automation system.
+This repository introduces the **public-facing components** that surround, support, or demonstrate concepts adjacent to the private Finovia protocol.
 
-This is a **demo only**:
-- no production logic
-- no business rules
-- no proprietary code
-
-The goal is to demonstrate:
-- how to structure a Celery app
-- how to register tasks cleanly
-- how to define a Beat schedule
-- how to organize an automation pipeline
+Finovia itself remains private — the protocol logic, incentive engine, settlement model, and internal flows are not exposed.  
+This repo simply helps visitors understand how the **public ecosystem** fits together.
 
 ---
 
-## 📚 Contents
+## 🌐 What This Repo Provides
 
-### demo/
-- `celery_app.py` — Celery application factory
-- `tasks.py` — example tasks
-- `beat_schedule.py` — example periodic task schedule
-
-### examples/
-- `simple_task_flow.png` — conceptual diagram of a Celery task flow
+- a **visual ecosystem map**
+- a **narrative overview**
+- a **recommended reading order**
+- an **index of all public repositories**
+- **architecture notes** explaining how the pieces relate
 
 ---
 
-## 🎯 Purpose
+## 🗺 Visual Map
 
-This repo showcases:
-- distributed task execution patterns  
-- modular task registration  
-- periodic scheduling  
-- clean automation architecture  
-
-It is designed to attract:
-- backend automation work  
-- Celery consulting  
-- distributed systems architecture gigs  
-- SaaS founders needing automation pipelines  
+See: [`visual_map.md`](./visual_map.md)
 
 ---
 
-## ⚠️ Disclaimer
+## 📦 Repository Index
 
-This repository contains **no production code** from any internal system.  
-It is a conceptual mock for demonstration and portfolio purposes only.
+See: [`repo_index.md`](./repo_index.md)
+
+---
+
+## 🧭 Recommended Reading Order
+
+See: [`recommended_reading_order.md`](./recommended_reading_order.md)
+
+---
+
+## 🧱 Architecture Notes
+
+See: [`architecture.md`](./architecture.md)
+
+---
+
+## 🔒 About Finovia
+
+Finovia is a private protocol-level economic engine.  
+Only the **conceptual overview** is public — the implementation remains private and proprietary.
+
+Public repos in this ecosystem demonstrate:
+
+- modular backend architecture  
+- execution and state transitions  
+- automation pipelines  
+- operator-first UI/UX  
+- browser automation  
+- conceptual protocol design  
+
+---
+
+## 📬 Contact
+
+For architecture consulting, automation systems, protocol design, or backend/API work:
+
+**Brennen Segura**  
+📧 brennen@seguramgmt.com  
+📞 337‑658‑0254
